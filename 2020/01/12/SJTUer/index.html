@@ -6,15 +6,17 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://blog.tim2sj.com">
-  <title>时尖的博客</title>
+  <title>Some Security Tips for SJTUer | 时尖的博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="上海交通大学密西根学院17级，ECE专业。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="时尖的博客">
-<meta property="og:url" content="http://blog.tim2sj.com/index.html">
+  <meta name="description" content="最近，我在查看路由器日志的时候发现我的路由器有异常 root 登录，以及异常脚本抓取并在后台运行。经过多重排查发现有被黑客入侵用作肉鸡的可能。所以写下这篇博文，留作警示，同时也希望别的同学不要中招。 先说一下我之前的配置环境：我的路由器用的是 OpenWrt 系统，就是一个专门用于路由器 (Router) 的 Linux，客制化程度比较高。该路由器下挂载了两个服务器，一台 Ubuntu，一台 Wi">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Some Security Tips for SJTUer">
+<meta property="og:url" content="http://blog.tim2sj.com/2020/01/12/SJTUer/index.html">
 <meta property="og:site_name" content="时尖的博客">
-<meta property="og:description" content="上海交通大学密西根学院17级，ECE专业。">
+<meta property="og:description" content="最近，我在查看路由器日志的时候发现我的路由器有异常 root 登录，以及异常脚本抓取并在后台运行。经过多重排查发现有被黑客入侵用作肉鸡的可能。所以写下这篇博文，留作警示，同时也希望别的同学不要中招。 先说一下我之前的配置环境：我的路由器用的是 OpenWrt 系统，就是一个专门用于路由器 (Router) 的 Linux，客制化程度比较高。该路由器下挂载了两个服务器，一台 Ubuntu，一台 Wi">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-01-12T11:38:15.000Z">
+<meta property="article:modified_time" content="2020-01-12T12:51:56.780Z">
 <meta property="article:author" content="Tim Shi">
 <meta property="article:tag" content="Geek">
 <meta property="article:tag" content=" Server">
@@ -145,16 +147,14 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-    <article id="post-SJTUer" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+            <article id="post-SJTUer" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/01/12/SJTUer/">Some Security Tips for SJTUer</a>
+    <h1 class="article-title" itemprop="name">
+      Some Security Tips for SJTUer
     </h1>
   
 
@@ -197,16 +197,75 @@
       
 
       
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2020/01/12/SJTUer/">展开全文 >></a>
-        </p>
-      
 
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
+        </div>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://blog.tim2sj.com/2020/01/12/SJTUer/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
       
       <div class="clearfix"></div>
     </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
+  
+  
+    <a href="/2020/01/01/About-Me/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">About Me</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -226,74 +285,14 @@
 
 
 
-
   
-    <article id="post-About-Me" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/01/01/About-Me/">About Me</a>
-    </h1>
   
 
-        
-        <a href="/2020/01/01/About-Me/" class="archive-article-date">
-  	<time datetime="2020-01-01T09:04:26.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-01-01</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>I am a student from <a href="http://umji.sjtu.edu.cn/cn/" target="_blank" rel="noopener">Joint Institute, Shanghai Jiao Tong University</a>. My major is Electrical and Computer Enginnering (ECE). Currently, I am making a research in High Level Synthesis, which is a tool that converts high level languages to hardware description languages. In brief, my job is to solve some of the communication problems between human and computer. Therefore, as you can imagine, coding and programming are part of my daily life. <br></p>
-<p>Besides coding and programming, I also have many other hobbies, including swimming, riding and ACG culture. <br></p>
-<p>Personal site: <a href="blog.tim2sj.com">blog.tim2sj.com</a><br></p>
-<p>Personal E-mail: <a href="mailto:time-dou@outlook.com">time-dou@outlook.com</a><br></p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2020/01/01/About-Me/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
+  
 
   
+
   
 
 
@@ -316,8 +315,8 @@
     <script>
 	var yiliaConfig = {
 		mathjax: false,
-		isHome: true,
-		isPost: false,
+		isHome: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
